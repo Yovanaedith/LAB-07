@@ -1,10 +1,10 @@
-export const WapperList = props => {
+export const WrapperList = props => {
   
     const { children } = props
   
     return (
       <div>
-        <h2>Lista de Compras</h2>
+        <h2>RANDOM COMPONENT</h2>
         <div>
           { children }
         </div>
