@@ -1,18 +1,20 @@
 import { useState } from "react";
 
 export const Button = () => { 
+    const [randomNumber, setRandomNumber] = useState (null);
   
-    const[count, setCount] = useState(0);
+    const showRandomNumberAlert = () =>{
 
-    const IncreaseOfFiveByFive = () => {
-        setCount(count +5);
+        const randomNumber= Math.floor(Math.random()*100) + 1;
+        setRandomNumber (randomNumber)
+        alert(`Random Number: ${ randomNumber }` );
     };
     return(
-        <button onClick={ IncreaseOfFiveByFive }> 
-            Increase by five: { count }
+        <button onClick={ showRandomNumberAlert }> 
+            show number random 
         </button> 
     ); 
- }
+};
 
 
        

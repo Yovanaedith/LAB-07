@@ -1,7 +1,7 @@
 import { Button } from './components/Button'
 import './App.css'
 import { WapperList } from './components/WrapperList';
-import { List } from './components/List';
+//import { List } from './components/List';
 
 function App() {
 
@@ -9,9 +9,7 @@ function App() {
 
   return (
       <>
-        <WapperList>
-          <List/>
-        </WapperList>
+        <WapperList/>
         <Button/>
       </> 
   )

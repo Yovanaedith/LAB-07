@@ -4,7 +4,7 @@ export const WapperList = props => {
   
     return (
       <div>
-        <h2>Lista de Compras</h2>
+        <h2>ALERT</h2>
         <div>
           { children }
         </div>
