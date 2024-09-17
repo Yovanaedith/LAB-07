@@ -1,10 +1,7 @@
-//import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-//import viteLogo from '/vite.svg'
-//import { Button } from './components/Button'
+import { Button } from './components/Button'
 import './App.css'
 import { WapperList } from './components/WrapperList';
-import { List } from './components/List';
+//import { List } from './components/List';
 
 function App() {
 
@@ -12,10 +9,9 @@ function App() {
 
   return (
       <>
-        <WapperList>
-          <List/>
-        </WapperList>
-      </>
+        <WapperList/>
+        <Button/>
+      </> 
   )
 }
 
