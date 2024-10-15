@@ -1,18 +1,15 @@
-//import { Button } from './components/Button'
 import './App.css'
-import { WrapperList } from './components/WrapperList';
-import { RandomComponent } from './components/RandomComponent';
-//import { List } from './components/List';
+import { CompWithProps } from './components/CompWithProps'
 
 
 function App() {
 
   return (
-      <>
-        <WrapperList/>
-        <RandomComponent/>
-      </> 
-  )
+      <div>
+        <h1>Componentwithprops</h1>
+        <CompWithProps/>
+      </div> 
+  );
 }
 
 export default App
