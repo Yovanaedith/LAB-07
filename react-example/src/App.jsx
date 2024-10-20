@@ -1,22 +1,15 @@
-//import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-//import viteLogo from '/vite.svg'
-//import { Button } from './components/Button'
 import './App.css'
-import { WapperList } from './components/WrapperList';
-import { List } from './components/List';
+import { CompWithProps } from './components/CompWithProps'
+
 
 function App() {
 
-  const buttonText = "Count: ";
-
   return (
-      <>
-        <WapperList>
-          <List/>
-        </WapperList>
-      </>
-  )
+      <div>
+        <h1>Componentwithprops</h1>
+        <CompWithProps/>
+      </div> 
+  );
 }
 
 export default App
